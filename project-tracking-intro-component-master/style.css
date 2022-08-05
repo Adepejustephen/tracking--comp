@@ -66,6 +66,8 @@ display: flex;
 
 .menu__item a {
 color: hsl(230, 29%, 20%);
+    text-transform: uppercase;
+
 
 }
 
@@ -101,6 +103,7 @@ color: hsl(230, 29%, 20%);
 .login-btn a{
     color:  hsl(230, 11%, 40%) ;
     transition: .3s;
+    text-transform: uppercase;
 }
 .login-btn a:hover{
     text-decoration: underline hsl(230, 11%, 40%) ;
@@ -114,7 +117,7 @@ color: hsl(230, 29%, 20%);
 
 
 .overlay {
-    width: 50%;
+    width: 45%;
     height: 50%;
    background-color: hsl(207, 33%, 95%);
     /* background-color:  #fff; */
@@ -138,8 +141,9 @@ color: hsl(230, 29%, 20%);
 }
 
 .hero__content {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    /* display: grid; */
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
     align-items: center;
      width: 80%;
     margin: 1.6rem auto;
@@ -186,18 +190,19 @@ right: 0;
 height: 100%;
 width: 100%;
 object-fit: cover;
-object-position: left bottom;
-/* z-index: 5; */
-transform: translateX(19vw);
+object-position: left;
+
+transform: translateX(10vw);
 
 }
 
 .heading {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: hsl(230, 29%, 20%);
     line-height: 120%;
     font-weight: 700;
     text-transform: uppercase;
+    /* word-spacing: 5px; */
 }
 
 .light_text {
