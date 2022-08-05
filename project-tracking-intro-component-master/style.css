@@ -121,8 +121,8 @@ color: hsl(230, 29%, 20%);
    background-color: hsl(207, 33%, 95%);
     /* background-color:  #fff; */
     position: absolute;
-    right: 0;
     top: 0;
+    left: 55%;
     border-bottom-left-radius: 2rem;
     z-index: -1;
 }
